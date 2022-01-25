@@ -1,0 +1,59 @@
+<body>
+
+  <h1>HTML: Grundlagen</h1>
+  <p>Mit HTML schreiben wir den Inhalt einer Webseite. Ein HTML-Dokument
+    beinhaltet Elemente/Tags, die folgendem Muster folgen:</p>
+  <pre>&lt;tag&gt;Text hier&lt;/tag&gt;</pre>
+
+  <h2>Block-Elemente</h2>
+  <p>Erzeugen eine neue Zeile. Folgend einige Beispiele:</p>
+  <ul>
+    <li>Paragraph (p)</li>
+    <li>Heading (h1/h2/h3/...)</li>
+    <li>Liste (ul)...</li>
+    <li>... und verschachtelte Items (li)</li>
+  </ul>
+
+  <h2>Gruppierungs-Elemente</h2>
+  <p>Gruppieren verschachtelte Elemente zusammen. Sind gleichzeitig
+    Block-Elemente. Folgend einige Beispiele:</p>
+  <ul>
+    <li>Liste (ul)</li>
+    <li>Komplette Seite (body)</li>
+    <li>Generische Gruppe (div)</li>
+    <li>Semantische Gruppe (header, footer, main, ...)</li>
+  </ul>
+
+  <h2>Inline-Elemente</h2>
+  <p>Fliessen in der aktuellen Zeile. Folgend einige Beispiele:</p>
+  <ul>
+    <li>Das ist <strong>fett (strong)</strong></li>
+    <li>Das ist <em>kursiv (em)</em></li>
+    <li>Das ist ein <a href="">Link (a)</a></li>
+  </ul>
+
+  <h2>Attribute</h2>
+  <p>Definieren zusätzliche Meta-Informationen, etwa die Ziel-URL eines
+    Links.</p>
+  <pre>&lt;a href=&quot;https://www.sae.edu/&quot;&gt;SAE&lt;/a&gt;</pre>
+
+  <h2>Pfade</h2>
+  <p>Sind entweder relativ, absolut oder extern:</p>
+  <ul>
+    <li>Relativ: ../../relativ/to/current/location</li>
+    <li>Absolut: /absolute/from/root</li>
+    <li>Extern: https://eine-andere-website.com</li>
+  </ul>
+  <p>Link zu einer <a href="subpage.html">Unterseite</a>.</p>
+
+  <h2>Medien</h2>
+  <p>Eingebettet über den entsprechenden Tag inkl. Source- und Alt-Attribut:</p>
+  <pre>&lt;img src=&quot;./assets/sae-logo.png&quot; alt=&quot;SAE-Logo&quot;&gt;</pre>
+  <img src="assets/sae-logo.png" alt="SAE-Logo">
+
+  <h2>Kommentare</h2>
+  <p>Können in den Code eingebettet werden, um ihn zu erklären. Unsichtbar für den Endnutzer.</p>
+  <!--  Das ist ein Kommentar-->
+  <pre>&lt;!-- Dein Kommentar hier --&gt;</pre>
+
+</body>

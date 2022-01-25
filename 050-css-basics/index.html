@@ -1,0 +1,61 @@
+<!--Zentrierungstrick mit [max-width: 640px;] und [margin: 0 auto;]-->
+<body style="font-family: sans-serif; padding: 24px; max-width: 640px; margin: 0 auto;">
+
+  <h1>CSS: Grundlagen</h1>
+  <p>Mit CSS steuern wir das Design einer Website. CSS-Regeln folgen einem
+    simplen Muster:</p>
+  <pre>&lt;tag style=&quot;eigenschaft: wert;&quot;&gt;Beispieltext&lt;/tag&gt;</pre>
+
+  <h2>Farbe und Hex-Codes</h2>
+  <pre>&lt;p style=&quot;background-color: #222222; color: #dddddd&quot;&gt;Beispieltext&lt;/p&gt;</pre>
+  <p style="background-color: #222222; color: #dddddd">Beispieltext</p>
+
+  <h2>Typographie und Google Fonts</h2>
+  <pre>&lt;p style=&quot;font-weight:bold; font-size: 24px; text-align:center;&quot;&gt;Beispieltext&lt;/p&gt;</pre>
+  <p style="font-weight:bold; font-size: 24px; text-align:center;">
+    Beispieltext</p>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+    rel="stylesheet"
+  >
+  <pre>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Raleway&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+  <pre>&lt;p style=&quot;font-family: 'Raleway'; font-size: 24px; text-align: center;&gt;Raleway font family&lt;/p&gt;</pre>
+  <p style="font-family: 'Raleway'; font-size: 24px; text-align:center;">
+    Raleway font family</p>
+
+  <h2>Box-Modell</h2>
+  <pre>
+  &lt;div style=&quot;
+    width: 240px;
+    height: 80px;
+    padding: 20px;
+    border: 20px solid #333333;
+    margin-left: 80px;
+    background-color:#eeeeee;
+  &quot;
+  &gt;Beispieltext&lt;/div&gt;
+  </pre>
+  <div
+    style="
+    width: 240px;
+    height: 80px;
+    padding: 20px;
+    border: 20px solid #333333;
+    margin-left: 80px;
+    background-color:#eeeeee;
+  "
+  >Beispieltext
+  </div>
+  <img src="./assets/box-modell.png" alt="Box-Modell" width="640">
+  <!--  Verwende die Developer-Tools von Chrome um Elemente zu untersuchen-->
+  <a href="https://www.youtube.com/watch?v=MrAnu4zdjjY">Video Box-Modell</a>
+
+  <h2>Einheiten</h2>
+  <ul>
+    <li>Pixel (42px)</li>
+    <li>Prozent (50%)</li>
+    <li>Automatisch (auto)</li>
+    <li>Relativ zu Fensterhöhe (50vh)</li>
+  </ul>
+
+</body>
