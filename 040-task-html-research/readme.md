@@ -1,4 +1,4 @@
-## Recherche HTML
+# Recherche HTML
 
 Wähle einen HTML-Tag aus einer vorgegebenen Liste und recherchiere dazu auf dem Mozilla Developer Network.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
@@ -19,13 +19,6 @@ Erkläre ihn anschliessend der Klasse / 3 anderen Studenten.
 - figure
 - button
 - details
-- main
-- header
-- footer
-- nav
-- aside
-- section
-- article
 - blockquote
 - address
 - video

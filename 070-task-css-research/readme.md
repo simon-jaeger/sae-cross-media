@@ -1,4 +1,4 @@
-## Recherche CSS
+# Recherche CSS
 
 Wähle eine CSS-Regel aus einer vorgegebenen Liste und recherchiere dazu auf dem Mozilla Developer Network.
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index

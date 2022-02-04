@@ -1,7 +1,3 @@
----
-{ theme: 'black', revealOptions: { transition: 'fade' } }
----
-
 # Webentwicklung
 
 Simon Jäger
