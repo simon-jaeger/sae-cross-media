@@ -1,6 +1,6 @@
 <head>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/base.css" rel="stylesheet">
-  <link href="global.css" rel="stylesheet">  
+  <link href="/z-shared/reset.css" rel="stylesheet">
+  <link href="global.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,9 +16,10 @@
   <h2>Reset</h2>
   <p>Der Browser definiert automatisch bereits ein
     Basis-Design. Will man ein eigenes Design definieren, ist es üblich, zuerst
-    das Basis-Design zu resetten. Hierfür kann der Einfachheit halber eine
-    Helfer-Library verwendet werden:</p>
-  <pre>&lt;link href=&quot;https://unpkg.com/tailwindcss@^2/dist/base.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+    das Basis-Design zu resetten. Hierfür verwendet man ein sogenanntes
+    CSS-Reset.
+    Du findest ein solches Reset im Ordner <em>z-shared</em>. Binde es ein:</p>
+  <pre>&lt;link href=&quot;/z-shared/reset.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
 
   <h2>Selektoren und Regel-Blöcke</h2>
   <p>Globale Regel-Blöcke beginnnen immer mit einem Selektor, gefolgt von
@@ -67,8 +68,10 @@
   </pre>
 
   <h2>Pseudo-Selektoren</h2>
-  <p>Um CSS-Regeln zu definieren, die nur unter bestimmen Bedingungen aktiv werden, kommen sogenannte Pseudo-Selektoren zum Einsatz.</p>
-  <button>:hover</button>
+  <a href="https://www.youtube.com/watch?v=kpXKwDGtjGE">→YouTube</a>
+  <p>Um CSS-Regeln zu definieren, die nur unter bestimmen Bedingungen aktiv
+    werden, kommen sogenannte Pseudo-Selektoren zum Einsatz.</p>
+  <button>hover me</button>
   <input type="text" value="focus me">
   <pre style="margin-top: 16px;">
     /* global.css */
@@ -89,7 +92,7 @@
     }
 
     &lt;!-- index.html --&gt;
-    &lt;button&gt;:hover&lt;/button&gt;
-    &lt;input type=&quot;text&quot; value=&quot;:focus&quot;&gt;
+    &lt;button&gt;hover me&lt;/button&gt;
+    &lt;input type=&quot;text&quot; value=&quot;focus me&quot;&gt;
   </pre>
 </body>

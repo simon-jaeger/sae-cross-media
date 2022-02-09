@@ -1,0 +1,16 @@
+body {
+  padding: 32px;
+  max-width: 480px;
+}
+
+label {
+}
+
+button {
+  padding: 8px;
+  border: 1px solid #333333;
+}
+input {
+  padding: 8px;
+  border: 1px solid #333333;
+}

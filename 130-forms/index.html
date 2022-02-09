@@ -1,0 +1,104 @@
+<head>
+  <link href="/z-shared/reset.css" rel="stylesheet">
+  <style>
+    .profileForm {
+      padding: 32px;
+      max-width: 400px;
+    }
+
+    .profileForm > * {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <form class="profileForm">
+    <label>
+      <span>Benutzername</span>
+      <input type="text" required>
+    </label>
+
+    <label>
+      <span>Passwort</span>
+      <input
+        type="password"
+        required
+        minlength="8"
+        placeholder="Mindestens 8 Zeichen"
+      >
+    </label>
+
+    <label>
+      <span>E-Mail</span>
+      <input type="email">
+      <!-- wie type="text", aber zeigt auf smartphone eine tastatur mit einem @ und validiert e-mail -->
+    </label>
+
+    <label>
+      <span>Geburtstag</span>
+      <input type="date">
+    </label>
+
+    <label>
+      <span>Bio</span>
+      <textarea></textarea>
+    </label>
+
+    <label>
+      <input type="checkbox">
+      <span>Öffentlich</span>
+    </label>
+
+    <fieldset>
+      <legend>Fähigkeiten</legend>
+      <label>
+        <input type="checkbox" checked>
+        <span>HTML</span>
+      </label>
+      <label>
+        <input type="checkbox" checked>
+        <span>CSS</span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>PHP</span>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Lieblingsjahreszeit</legend>
+      <label>
+        <input type="radio" name="season">
+        <span>Frühling</span>
+      </label>
+      <label>
+        <input type="radio" name="season">
+        <span>Sommer</span>
+      </label>
+      <label>
+        <input type="radio" name="season">
+        <span>Herbst</span>
+      </label>
+      <label>
+        <input type="radio" name="season">
+        <span>Winter</span>
+      </label>
+    </fieldset>
+
+    <label>
+      <span>Sprache</span>
+      <select>
+        <option>Deutsch</option>
+        <option>Englisch</option>
+        <option>Französisch</option>
+        <option>Italienisch</option>
+        <option>Spanisch</option>
+      </select>
+    </label>
+
+    <!-- sendet daten an den server. ohne server-code wird nur die seite neu geladen. -->
+    <button type="submit">Speichern</button>
+
+  </form>
+</body>

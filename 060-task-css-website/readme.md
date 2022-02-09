@@ -8,4 +8,5 @@ Nutze CSS um deine Website zu personalisieren:
 - Nutze eine Schriftart von Google Fonts
 - Ergänze mehr Inhalt und gestalte frei weiter
 
-Melde dich bei Fragen und zeige dein Ergebnis zum Schluss der Klasse.
+Arbeite in einer Gruppe (Breakout-Room) und tausch dich mit deinen Mitstudenten aus.
+Präsentatiert euch am Schluss gegenseitig eure Ergebnisse.

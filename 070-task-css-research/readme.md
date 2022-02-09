@@ -3,12 +3,12 @@
 Wähle eine CSS-Regel aus einer vorgegebenen Liste und recherchiere dazu auf dem Mozilla Developer Network.
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index
 
-Erkläre sie anschliessend der Klasse / 3 anderen Studenten.
+Erkläre sie anschliessend der Klasse.
 
 **CSS-Regeln:**
-- text-align
 - line-height
-- font-weight
+- font-style
+- text-decoration
 - text-decoration
 - text-transform
 - text-indent
@@ -17,7 +17,9 @@ Erkläre sie anschliessend der Klasse / 3 anderen Studenten.
 - opacity
 - box-shadow
 - border-radius
+- border-style
 - overflow
+- background-image
 - list-style
 - cursor
 - user-select
