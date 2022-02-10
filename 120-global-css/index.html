@@ -1,6 +1,5 @@
 <head>
-  <link href="/z-shared/reset.css" rel="stylesheet">
-  <link href="global.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -11,15 +10,7 @@
     mehreren HTML-Dateien referenziert werden kann. Das ist nützlich, um globale
     Regeln zu definieren. Beginne immer mit lokalen Regeln und erstelle globale
     Regeln, sobald du merkst, dass du dich zu oft wiederholst. </p>
-  <pre>&lt;link href=&quot;global.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
-
-  <h2>Reset</h2>
-  <p>Der Browser definiert automatisch bereits ein
-    Basis-Design. Will man ein eigenes Design definieren, ist es üblich, zuerst
-    das Basis-Design zu resetten. Hierfür verwendet man ein sogenanntes
-    CSS-Reset.
-    Du findest ein solches Reset im Ordner <em>z-shared</em>. Binde es ein:</p>
-  <pre>&lt;link href=&quot;/z-shared/reset.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+  <pre>&lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
 
   <h2>Selektoren und Regel-Blöcke</h2>
   <p>Globale Regel-Blöcke beginnnen immer mit einem Selektor, gefolgt von
@@ -43,11 +34,11 @@
     Sets an CSS-Regeln, die dann über das Attribute <em>class</em> einfach auf
     ein beliebiges Element angewendet werden können.</p>
   <div class="card">
-    Element mit der Klasse <em>.card</em>
+    Div-Element mit der Klasse <em>.card</em>
   </div>
-  <div class="card">
-    Und noch ein Element mit der gleichen Klasse
-  </div>
+  <article class="card">
+    Article-Element mit der Klasse <em>.card</em>
+  </article>
   <pre>
     /* global.css */
     .card {

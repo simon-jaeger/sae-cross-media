@@ -1,6 +1,10 @@
 body {
+  font-family: system-ui;
   color: #334155;
   background-color: #F8FAFC;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px;
   overflow-y: scroll;
 }
 h1, h2, h3 {
@@ -8,6 +12,7 @@ h1, h2, h3 {
   color: #0F172A;
   line-height: 1;
   margin-bottom: 12px;
+  margin-top: 0;
 }
 h1 {
   font-size: 36px;
@@ -19,11 +24,14 @@ h3 {
   font-size: 20px;
 }
 p {
+  margin-top: 0;
   margin-bottom: 24px;
 }
 blockquote {
   padding: 12px 24px;
   border-left: 4px solid #E2E8F0;
+  margin-top: 0;
+  margin-left: 0;
   margin-bottom: 24px;
 }
 cite {
@@ -31,12 +39,12 @@ cite {
   margin-top: 16px;
 }
 ul {
-  padding-left: 28px;
-  list-style: disc;
+  margin-top: 0;
   margin-bottom: 24px;
 }
 a {
   color: #0284C7;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
@@ -44,9 +52,10 @@ a:hover {
 table {
   width: 100%;
   margin-bottom: 24px;
+  border-collapse: collapse;
 }
 tr {
-  border-bottom: 0.75px solid #CBD5E1;
+  border-bottom: 1px solid #CBD5E1;
 }
 th {
   text-align: left;
@@ -57,8 +66,10 @@ td {
   padding: 12px;
 }
 hr {
+  border: none;
   height: 1px;
   background-color: #CBD5E1;
+  margin-top: 0;
   margin-bottom: 24px;
 }
 img {

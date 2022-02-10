@@ -1,6 +1,6 @@
 /* regeln für den body, also die ganze seite */
 body {
-  padding: 32px;
+  font-family: sans-serif;
   max-width: 640px;
   margin: 0 auto;
   background-color: #fafafa;
@@ -35,17 +35,18 @@ pre {
 
 /* pseudo-selektoren */
 button {
+  background-color: #ffffff;
   padding: 8px;
   border: 1px solid #333333;
 }
 button:hover {
-  background-color: #333333;
-  color: #cccccc;
+  background-color: #000000;
+  color: #ffffff;
 }
 input {
   padding: 8px;
-  outline: 1px solid #333333;
 }
 input:focus {
-  outline: 1px solid red;
+  background-color: #000000;
+  color: #ffffff;
 }
