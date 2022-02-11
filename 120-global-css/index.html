@@ -10,7 +10,6 @@
     mehreren HTML-Dateien referenziert werden kann. Das ist nützlich, um globale
     Regeln zu definieren. Beginne immer mit lokalen Regeln und erstelle globale
     Regeln, sobald du merkst, dass du dich zu oft wiederholst. </p>
-  <pre>&lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
 
   <h2>Selektoren und Regel-Blöcke</h2>
   <p>Globale Regel-Blöcke beginnnen immer mit einem Selektor, gefolgt von
@@ -33,14 +32,8 @@
     selbstdefiniert Klassen geschrieben werden. Das erlaubt das Gruppieren eines
     Sets an CSS-Regeln, die dann über das Attribute <em>class</em> einfach auf
     ein beliebiges Element angewendet werden können.</p>
-  <div class="card">
-    Div-Element mit der Klasse <em>.card</em>
-  </div>
-  <article class="card">
-    Article-Element mit der Klasse <em>.card</em>
-  </article>
   <pre>
-    /* global.css */
+    /* style.css */
     .card {
       padding: 24px;
       border-radius: 4px;
@@ -48,24 +41,20 @@
       background-color: #ffffff;
       box-shadow: 0 1px 3px 0 #aaaaaa;
     }
-
-    &lt;!-- index.html --&gt;
-    &lt;div class=&quot;card&quot;&gt;
-      Element mit der Klasse &lt;em&gt;.card&lt;/em&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;card&quot;&gt;
-      Und noch ein Element mit der gleichen Klasse
-    &lt;/div&gt;
   </pre>
+  <div class="card">
+    Div-Element mit der Klasse <em>.card</em>
+  </div>
+  <article class="card">
+    Article-Element mit der Klasse <em>.card</em>
+  </article>
 
   <h2>Pseudo-Selektoren</h2>
   <a href="https://www.youtube.com/watch?v=kpXKwDGtjGE">→YouTube</a>
   <p>Um CSS-Regeln zu definieren, die nur unter bestimmen Bedingungen aktiv
     werden, kommen sogenannte Pseudo-Selektoren zum Einsatz.</p>
-  <button>hover me</button>
-  <input type="text" value="focus me">
-  <pre style="margin-top: 16px;">
-    /* global.css */
+  <pre style="margin-bottom: 16px;">
+    /* style.css */
     button {
       padding: 8px;
       border: 1px solid #333333;
@@ -81,9 +70,7 @@
     input:focus {
       outline: 1px solid #EF4444;
     }
-
-    &lt;!-- index.html --&gt;
-    &lt;button&gt;hover me&lt;/button&gt;
-    &lt;input type=&quot;text&quot; value=&quot;focus me&quot;&gt;
   </pre>
+  <button>hover me</button>
+  <input type="text" value="focus me">
 </body>
