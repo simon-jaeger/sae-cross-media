@@ -9,7 +9,6 @@ Erkläre sie anschliessend der Klasse.
 - line-height
 - font-style
 - text-decoration
-- text-decoration
 - text-transform
 - text-indent
 - text-shadow
@@ -17,7 +16,6 @@ Erkläre sie anschliessend der Klasse.
 - opacity
 - box-shadow
 - border-radius
-- border-style
 - overflow
 - background-image
 - list-style
