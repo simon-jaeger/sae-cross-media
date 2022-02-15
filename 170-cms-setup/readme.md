@@ -19,12 +19,12 @@ Kreiere dort eine Datenbank für ein CMS mit dem Namen `wordpress` und dem Zeich
 
 WordPress ist das meist genutzte CMS der Welt. Installieren wir es für unser Web-Projekt:
 
-- Lade WordPress herunter: `https://de-ch.wordpress.org/download/#download-install`
-- Extrahiere das ZIP und verschiebe den Ordner `wordpress` in MAMPs `htdocs`
+- Lade WordPress herunter: https://de-ch.wordpress.org/download/#download-install
+- Extrahiere das ZIP und verschiebe den Inhalt des Ordners `wordpress` in MAMPs `htdocs`
 
 ![download-wp](download-wp.png)
 
-- Navigiere mit dem Browser auf `http://localhost/wordpress` um die Installation zu starten
+- Navigiere mit dem Browser auf `http://localhost` um die Installation zu starten
 - Der Standard-User bei MAMP hat den Names und das Passwort `root`. Bei einer Live-Website findest du solche Daten im Dashboard deines Hostinganbieters.
 
 ![setup-wp](setup-wp.png)
