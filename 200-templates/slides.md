@@ -69,24 +69,14 @@ HTML mit Befehlen für Templating.
 ## Schlaufen
 
 ```html
-<h1>{{ post.title }}</h1>
-{% for category in post.categories %}
-  <a href="{{ category.link }}">{{ category.name }}</a>
+<h1>Archiv</h1>
+{% for post in posts %}
+<article>
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.preview }}</p>
+</article>
 {% endfor %}
-<div>{{ post.content }}</div>
 ```
-
----
-
-## Layouts
-
-...
-
----
-
-## Includes
-
-...
 
 ---
 
@@ -97,6 +87,51 @@ HTML mit Befehlen für Templating.
 - page.twig
 - archive.twig
 - 404.twig
+
+---
+
+## Layouts
+
+```html
+<!-- layouts/base.twig -->
+<head>...</head>
+<body>
+  <nav>...</nav>
+  <main>{{ block('content') }}</main>
+  <footer>...</footer>
+</body>
+```
+
+```html
+<!-- single.twig -->
+{% extends "layouts/base.twig" %}
+{% block content %}
+<h1>{{ post.title }}</h1>
+<div>{{ post.content }}</div>
+{% endblock %}
+```
+
+---
+
+## Includes
+
+```html
+<h1>{{ post.title }}</h1>
+<div>{{ post.content }}</div>
+<hr>
+{% include "includes/comments.twig" %}
+```
+
+```html
+<!-- includes/comments.twig -->
+<h2>Kommentare</h2>
+{% for comment in post.comments %}
+<article>
+  <strong>{{ comment.author.name }}</strong>
+  <div>{{ comment.comment_content }}</div>
+</article>
+{% endfor %}
+```
 
 ---
 
