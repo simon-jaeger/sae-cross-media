@@ -140,6 +140,7 @@ HTML mit Befehlen für Templating.
 - https://marketplace.visualstudio.com/items?itemName=mblode.twig-language
 - https://timber.github.io/docs/reference/timber-post/
 - https://twig.symfony.com/doc/3.x/templates.html
+- https://www.youtube.com/watch?v=50RBUmPOYig
 
 ---
 
