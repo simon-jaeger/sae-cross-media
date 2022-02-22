@@ -66,6 +66,27 @@ HTML mit Befehlen für Templating.
 
 ---
 
+## WordPress-Templates
+
+- index.twig
+- single.twig
+- page.twig
+- archive.twig
+- 404.twig
+
+---
+
+## Bedingungen
+
+```html
+<h2>{{ post.title }}</h2>
+{% if post.thumbnail %}
+<img src="{{ post.thumbnail.src }}" alt="{{ post.thumbnail.alt }}">
+{% endif %}
+```
+
+---
+
 ## Schlaufen
 
 ```html
@@ -77,16 +98,6 @@ HTML mit Befehlen für Templating.
 </article>
 {% endfor %}
 ```
-
----
-
-## WordPress-Templates
-
-- index.twig
-- single.twig
-- page.twig
-- archive.twig
-- 404.twig
 
 ---
 
